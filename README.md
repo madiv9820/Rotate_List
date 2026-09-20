@@ -8,7 +8,7 @@ That is exactly what we do here: rotate the linked list to the right by **`k`** 
 
 ### 📝 Problem
 
-Given the `head` of a linked list, rotate the list to the **right by `k` places** and return the new head.
+Given the **`head`** of a linked list, rotate the list to the **right by `k` places** and return the new head.
 
 For example:
 
