@@ -52,6 +52,7 @@ def _make_testcase(testcase):
         print(f'🧪 Test Case : {title}')
         print(f'🤔 Scenario  : {description}')
         print(f'📝 Input : List={list}')
+        print(f'📝 Input : k={k}')
         print('⏳ Starting soon...')
         time.sleep(self.DISPLAY_DELAY_SECONDS)
 
