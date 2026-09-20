@@ -1,0 +1,92 @@
+[
+  {
+    "title": "🌀 Standard Rotation",
+    "input": {
+      "head": [1, 2, 3, 4, 5],
+      "k": 2
+    },
+    "output": [4, 5, 1, 2, 3],
+    "description": "🔄 Rotates the list right by two positions."
+  },
+  {
+    "title": "♻️ Rotation Beyond Length",
+    "input": {
+      "head": [0, 1, 2],
+      "k": 4
+    },
+    "output": [2, 0, 1],
+    "description": "📏 Reduces k using the list length before rotating."
+  },
+  {
+    "title": "🛑 No Rotation",
+    "input": {
+      "head": [1, 2, 3],
+      "k": 0
+    },
+    "output": [1, 2, 3],
+    "description": "⏸️ Keeps the list unchanged when no rotation is requested."
+  },
+  {
+    "title": "🔁 Full-Length Rotation",
+    "input": {
+      "head": [1, 2, 3, 4],
+      "k": 4
+    },
+    "output": [1, 2, 3, 4],
+    "description": "♻️ Rotating by the list length returns the original list."
+  },
+  {
+    "title": "🎯 Single-Step Rotation",
+    "input": {
+      "head": [1, 2, 3, 4],
+      "k": 1
+    },
+    "output": [4, 1, 2, 3],
+    "description": "➡️ Moves the last node to the front."
+  },
+  {
+    "title": "🔗 Two-Node List",
+    "input": {
+      "head": [1, 2],
+      "k": 1
+    },
+    "output": [2, 1],
+    "description": "🔄 Swaps the two nodes through a single rotation."
+  },
+  {
+    "title": "📦 Single Node",
+    "input": {
+      "head": [1],
+      "k": 100
+    },
+    "output": [1],
+    "description": "🛑 A single-node list remains unchanged regardless of k."
+  },
+  {
+    "title": "🌱 Empty List",
+    "input": {
+      "head": [],
+      "k": 5
+    },
+    "output": [],
+    "description": "🛑 An empty list cannot be rotated."
+  },
+  {
+    "title": "🚀 Large Rotation",
+    "input": {
+      "head": [1, 2, 3, 4, 5],
+      "k": 2000000000
+    },
+    "output": [1, 2, 3, 4, 5],
+    "description": "♻️ A huge rotation count is reduced modulo the list length."
+  },
+  {
+    "title": "🔀 Middle Rotation",
+    "input": {
+      "head": [10, 20, 30, 40, 50, 60],
+      "k": 3
+    },
+    "output": [40, 50, 60, 10, 20, 30],
+    "description": "🔄 Moves the last half of the list to the front."
+  }
+]
